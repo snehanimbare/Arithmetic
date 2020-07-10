@@ -30,3 +30,7 @@ arr[2]=${expressions[R2]}
 arr[3]=${expressions[R3]}
 arr[4]=${expressions[R4]}
 echo ${arr[@]}
+
+array=($(echo ${arr[@]} | tr " " "\n" | sort -nr ))
+echo "Sorted array in Descending Order: ${array[@]}"
+
