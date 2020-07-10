@@ -25,3 +25,8 @@ expressions[R4]=$R4
 echo ${!expressions[@]}
 echo ${expressions[@]}
 
+arr[1]=${expressions[R1]}
+arr[2]=${expressions[R2]}
+arr[3]=${expressions[R3]}
+arr[4]=${expressions[R4]}
+echo ${arr[@]}
