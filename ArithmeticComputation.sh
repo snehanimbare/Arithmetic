@@ -34,3 +34,7 @@ echo ${arr[@]}
 array=($(echo ${arr[@]} | tr " " "\n" | sort -nr ))
 echo "Sorted array in Descending Order: ${array[@]}"
 
+array=($(echo ${arr[@]} | tr " " "\n" | sort -n))
+echo "Sorted array in ascending Order : ${array[@]}"
+
+
