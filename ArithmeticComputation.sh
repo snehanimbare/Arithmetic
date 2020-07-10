@@ -7,3 +7,6 @@ echo "a=$a  b=$b  c=$c"
 
 R1=$(($a+$b*$c))
 echo $R1
+
+R2=$(($a*$b*$c))
+echo $R2
