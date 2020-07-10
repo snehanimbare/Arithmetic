@@ -10,3 +10,6 @@ echo $R1
 
 R2=$(($a*$b*$c))
 echo $R2
+
+R3=$(($c+$a/$b))
+echo $R3
